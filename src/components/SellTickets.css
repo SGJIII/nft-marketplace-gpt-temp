@@ -1,0 +1,45 @@
+.preview-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.preview-image {
+  width: 100%;
+  height: 100%;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.qr-container {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.preview-qr {
+  width: 100%;
+}
+
+.preview-qr svg {
+  width: 100%;
+  height: auto;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
