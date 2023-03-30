@@ -13,3 +13,16 @@
    1. Web
 5. Monetization: How do you plan to monetize your app, if at all? (e.g., ads, in-app purchases, subscriptions)
    1. Transaction fees
+
+# BlockParty
+
+Blockparty is a ticketing app that functions very similarly to an NFT marketplace
+
+## Sell Tickets
+Users should be able to log in with their magic wallet, and be able to mint tickets as NFTs. They can name the tickets, set the price, set the amount of royalties they receive on resale, and add an image. They'll then set a number of tickets they want to mint which will share the name, price, royalities, and image attribute. Each ticket will have a unique QR code so each ticket can be scanned. The user should be promted to add USDC on the Polygon network to cover the gas for minting their tickets. Once the tickets are minted they should be located in the users Magic sdk wallet and should be visible in the My Tickets page. 
+
+## Buy tickets 
+All tickets should be listed on the Buy Tickets page. There should be an example of each ticket collection shown on the buy ticket page in a grid format with the number of tickets available and the price range (in the case of re-sales). When a user clicks the specific ticket, they should see how many are available. The URL will be BuyTickets/[ticketcollectionname]. On this page the user can select how many tickets they want to purchase and should be able to check out with USDC on the polygon network. 
+
+## My Tickets
+The my tickets page should also show the collections each person has in their magic wallet. When they click on that selection, they should see the individual tickets they own, and the option to re-sell the tickets and select the price. 
